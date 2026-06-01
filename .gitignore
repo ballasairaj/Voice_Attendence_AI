@@ -1,0 +1,81 @@
+# Python
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+
+venv/
+env/
+.venv/
+
+# Environment Variables
+
+.env
+
+# IDE Files
+
+.vscode/
+.idea/
+
+# OS Files
+
+.DS_Store
+Thumbs.db
+
+# Audio Files
+
+response.wav
+test.wav
+
+# Ignore all recorded audio
+
+voices/*.wav
+
+# Database
+
+database/*.db
+database/*.sqlite3
+
+# Logs
+
+*.log
+
+# Model Downloads / Caches
+
+pretrained_models/
+audio_cache/
+temp_audio/
+
+# HuggingFace Cache (optional)
+
+.cache/
+hf_cache/
+
+# Streamlit Cache (if added later)
+
+
+.streamlit/
+
+# Jupyter Notebooks
+
+.ipynb_checkpoints/
+
+
+# Build Files
+
+
+build/
+dist/
+*.egg-info/
+
+
+# other files
+projectnotes.txt
+pyannote_similarity.py
+test_audio.py
+test_intent.py
+test_response.py
+test_speaker.py
+test_stt.py
